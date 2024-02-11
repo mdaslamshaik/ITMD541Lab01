@@ -1,0 +1,96 @@
+.outer-box {
+    background-color: #136eb4;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-box {
+    background-color: #12e571;
+    padding: 20px;
+    width: 60%;
+    border-radius: 3px;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#Bio h2 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#Bio p {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
+
+
+/* Define some basic styles */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #12e571; /* Dark background color */
+    color: #12e571;
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+}
+
+nav {
+    background-color: #12e571;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    height: 30px;
+    background-color: #82eeb3;
+    text-align:justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    color: #12e571;
+    width: 10px;
+}
+
+nav a {
+    text-decoration:#1877F2;
+    color: white;
+    font-size: large;
+}
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+#ul-li{
+    margin-left: 30px;
+}
+section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black; /* Background color for the section */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: justify;
+    color: white; /* Text color for the section */
+}
